@@ -1,0 +1,87 @@
+### General Requirements:
+1. *Button States:*
+   - All buttons should be in grey mode when disabled.
+
+2. *Navigation:*
+   - If the toggle button (Yes/No) is selected, it automatically navigates to the next page without tapping "Next".
+
+3. *Form Submission:*
+   - If an error occurs during form submission, display the error message on the page itself: "Unable to process your request, please try again."
+
+### Residential (On-Grid):
+1. *Pincode Validation:*
+   - Validation is missing for the Pincode field.
+
+2. *Input Field Alignment:*
+   - Input field alignments should remain consistent with and without error validations.
+
+ 3. Change "Nct of Delhi" change to “NCT of Delhi.”
+
+4. *State Dropdown:*
+   - Arrange the states in the drop-down list in alphabetical order.
+
+5. *Current Sanction Load (in kW):*
+   - Use "Current Sanction Load (in kW)" with a lowercase "k" and an uppercase "W."
+     1. *Info Icon Message:* “Sanctioned Load is mentioned in your electricity bill.”
+     2. *Consumption Information:* Add "Consumption over last month (in Units)" and place both fields in separate rows.
+
+6. *Total Roof Area (in Sqft):*
+   - *Roof Layout Upload:*
+     1. The roof layout upload option is not functioning.
+     2. The upload design should be consistent with the installers' form upload design.
+     3. Display accepted file formats and size limits: “(pdf, png, jpg, max file size: 2MB)” below the upload option.
+
+7. *Roof Rights:*
+   - *Floor Number Input Field:*
+     1. The "Enter Floor Number" input field size should be small and aligned to the center.
+   - *Roof Rights Toggle:*
+     1. Label as "Roof Rights?"
+     2. Add an info icon after the label with a hover tooltip.
+     3. Tooltip message: “For multi-story buildings/apartments, installers will require access rights to the roof for installation.”
+
+8. *Attachments Section:*
+   - *Video File:*
+     1. If the uploaded file size exceeds 200MB, display an error message.
+     2. Uploading a video file is optional.
+   - *Bills:*
+     1. Display info message: “Upload the latest 3 electricity bills or last month’s bill.”
+     2. Make it a mandatory field.
+     3. Allow a maximum of 3 uploads.
+   - *Images:*
+     1. Allow a maximum of 3-5 image uploads.
+
+9. *Google Maps Section:*
+   - The map overlaps with buttons, making them invisible on low-resolution screens.
+
+10. *Form Submission:*
+    - After submitting the form:
+      1. Show a preview page with "Submit" and "Edit" buttons.
+      2. If the user clicks on "Edit," display the last filled section of the form.
+
+### Residential (Off-Grid):
+1. *Peak Load:*
+   - Add a subtitle: “Please provide a complete list of appliances and their usage.”
+   - Make all fields mandatory.
+   - Rename "Equipment Name" to "Appliance Name."
+
+2. *Electricity Connectivity:*
+   - Change the label to “Electricity Available?”
+
+3. *Toast Message:*
+   - Remove the toast message.
+
+4. *Navigation:*
+   - Fix issues with navigating back multiple times.
+
+### Commercial:
+1. *Type of Organisation:*
+   - The selected background color should be blue, with white text and icon.
+
+2. *Battery Backup:*
+   - Change “Need Battery backup” to “Need Battery backup?”
+
+3. *Total Roof Area (in Aft):*
+   - Data is appearing in input fields without user input.
+
+4. *Uploads:*
+   - Image, electricity bill, and GST uploads should be mandatory.
